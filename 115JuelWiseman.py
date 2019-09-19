@@ -7,11 +7,12 @@ spider.color("black")
 spider.pensize(40)
 spider.circle(20)
 
+spider.speed(0)
 
 # Configure spiders legs 
 legs = 8
 length = 95
-spacing = 360 / legs
+spacing = 10000/ legs
 spider.pensize(5)
 loop = 0
 
